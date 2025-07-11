@@ -92,16 +92,13 @@ WHERE user_id IN (SELECT user_id FROM orders WHERE total_amount > 50);
 SELECT COUNT(*) FROM orders
 
 WHERE MONTH(order_datetime) = MONTH(CURRENT_DATE());
-💡 Example Analytics Queries
-Top 5 most ordered menu items
 
+## 💡 Example Analytics Queries
+Top 5 most ordered menu items:
 Revenue by restaurant or cuisine
-
 Monthly order summary
-
 Active users this month
-
 Average rating per cuisine
 
-🖼 ER Diagram
-A high-level overview of table relationships:
+## 🖼 ER Diagram
+A high-level overview of table relationships (attached above)
